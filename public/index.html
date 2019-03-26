@@ -10,9 +10,28 @@
     
     <body>
         <div class="page">
-            <header class="page__header">Soy el header</header>
-            <main class="page__main">Holi potoli</main>
-            <footer class="page__footer">Soy el footer :)</footer>
+            <header class="page__header">
+                <img class="header__img" src="_../../assets/images/bootstrap-solid.jpg"
+                alt="bootstrap-icon">
+            </header>
+            <main class="page__main">
+                 <h1 class="main__title">Please sign in</h1>
+
+                <form action="/signin" method="post" class="main__form">
+                    <input class="form__input" type="email" name="email" placeholder="Email address"
+                    required>
+                    <input class="form__input" type="password" name="password" placeholder="Password"
+                    required>
+                    <div class="form__input">
+                        <input type="checkbox" name="checkbox">Remember me</div>
+                    <input type="submit" value="Sign in">
+                </form>
+            </main>
+            <footer class="page__footer">
+                <div class="footer__copyright">
+                    <p class="copyright__text"><span>&copy; </span>2017-2019</p>
+                </div>
+            </footer>
         </div>
     </body>
 

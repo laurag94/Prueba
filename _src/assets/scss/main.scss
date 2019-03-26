@@ -2,4 +2,20 @@
 
 body {
 	height: 100vh;
+	background: $color-background;
+	text-align: center;
+}
+
+
+//Header
+
+.page__header {
+	padding-top: 100px;
+}
+
+.header__img {
+	height: 100px;
+	width: 100px;
+	margin: 10px auto;
+	display: block;
 }
