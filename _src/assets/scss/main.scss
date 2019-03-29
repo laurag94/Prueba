@@ -14,18 +14,51 @@ body {
 }
 
 .header__img {
-	height: 100px;
-	width: 100px;
+	height: 72px;
+	width: 72px;
 	margin: 10px auto;
 	display: block;
 }
 
 //Main
 
+.page__main{
+	width: 300px;
+	margin: auto;
+}
+
 .main__title{
 	font-size: 28px;
 	color: $color-letter;
 	font-weight: 400;
+}
+
+.main__form{
+	display: flex;
+	flex-direction: column;
+}
+.form__input{
+	margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form__btn{
+	height: 50px;
+	width: 300px;
+	margin: auto;
+	padding: 8px 16px;
+	font-size: 20px;
+	margin-top: 20px;
+	border-radius: 5px;
+	border-style: none;
+	color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
 }
 
 //Footer
